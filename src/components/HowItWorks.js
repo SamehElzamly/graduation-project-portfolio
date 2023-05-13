@@ -22,7 +22,7 @@ export function HowItWorks(){
                 else
                     setParagraph(<p>Project produce the name of students have attended and the date of each attendance....</p>)
                 i++
-            },4000)
+            },8000)
     },[])
     return(
         <div id="HowItWorks">
