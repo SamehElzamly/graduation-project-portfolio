@@ -1,21 +1,24 @@
+import { Link } from "react-router-dom";
+
 export function Topic3(){
     return(
         <div id="Topic3">
             <ul>
+
                         <li>
-                            <p>link1</p>
+                            <Link to={'/documentation/CVLib'}>OpenCV Library </Link>
                         </li>
                         <li>
-                            <p>link2</p>
+                            <Link to={'/documentation/NumPy'}>NumPy package </Link>
                         </li>
                         <li>
-                            <p>link3</p>
+                            <Link to={'/documentation/Pandas '}>Pandas Library </Link>
                         </li>
                         <li>
-                            <p>link4</p>
+                            <Link to={'/documentation/Openpyxl'}>Openpyxl Library</Link>
                         </li>
                         <li>
-                            <p>link5</p>
+                            <Link to={'/documentation/pil'}>Python Imaging Library</Link>
                         </li>
                     </ul>
         </div>

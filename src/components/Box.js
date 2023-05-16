@@ -1,13 +1,13 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-
+import { Link } from 'react-router-dom';
 export function Box(props) {
     return (
     <CardGroup className='w-18'>
         <Card>
         <Card.Img variant="top" src={props.toolImage} />
         <Card.Footer>
-            <p className="text-muted">{props.toolName}</p>
+            <Link to={`/documentation/${props.toolName}`} className="text-muted">{props.toolName}</Link>
         </Card.Footer>
         <Card.Body>
           <Card.Title>Description</Card.Title>

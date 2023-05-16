@@ -5,11 +5,7 @@ import { HowItWorks } from './components/HowItWorks';
 import { About } from './components/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Outlet, Route,Routes } from 'react-router-dom';
-import { Link1 } from './components/documents/link1';
-import { Link2 } from './components/documents/link2';
-import { Link3 } from './components/documents/link3';
-import { Link4 } from './components/documents/link4';
-import { Link5 } from './components/documents/link5';
+import { Link1,Link2,Link3,Link4,Link5,Link6,Link7,Link8,Link9,Link10,Link11,Link12,Link13,Link14,Link15,Link16,Link17,Link18,Link19,Link20,Link21,Link22,Link23,Link24 } from './components/sections';
 import { Head } from './components/Head';
 import { DocumentaionNav } from './components/DucumentaionNav';
 
@@ -41,14 +37,30 @@ function App() {
               <br/> This project provides a way for constructing a fully embedded class attendance system that uses facial recognition to determine whether the person's face is that of a student for that specific class or not. 
             </p>
           </section>}/>
-        <Route path='getStarted' element={<Link1/>}/>
-        <Route path='facial-recgonition' element={<Link2/>}/>
-        <Route path='machine-learning' element={<Link3/>}/>
-        <Route path='deep-learning' element={<Link4/>}/>
-        <Route path='biometrics' element={<Link5/>}/>
-        {/* <Route path='getStarted' element={<Link1/>}/>
-        <Route path='getStarted' element={<Link1/>}/>
-        <Route path='getStarted' element={<Link1/>}/> */}
+          <Route path='getStarted' element={<Link1/>}/>
+          <Route path='facial-recgonition' element={<Link2/>}/>
+          <Route path='machine-learning' element={<Link3/>}/>
+          <Route path='deep-learning' element={<Link4/>}/>
+          <Route path='biometrics' element={<Link5/>}/>
+          <Route path='CVLib' element={<Link6/>}/>
+          <Route path='NumPy' element={<Link7/>}/>
+          <Route path='Pandas' element={<Link8/>}/>
+          <Route path='Openpyxl' element={<Link9/>}/>
+          <Route path='XlsxWriter' element={<Link10/>}/>
+          <Route path='Tkinter' element={<Link11/>}/>
+          <Route path='Mediapipe' element={<Link12/>}/>
+          <Route path='mysql.connector' element={<Link13/>}/>
+          <Route path='ttk' element={<Link14/>}/>
+          <Route path='OS' element={<Link15/>}/>
+          <Route path='Messagebox' element={<Link16/>}/>
+          <Route path='Strftime' element={<Link17/>}/>
+          <Route path='HAAR Cascade' element={<Link18/>}/>
+          <Route path='LBPH' element={<Link19/>}/>
+          <Route path='LBP' element={<Link20/>}/>          
+          <Route path='PIL' element={<Link21/>}/>
+          <Route path='yolo' element={<Link22/>}/>
+          <Route path='roboflow' element={<Link23/>}/>          
+          <Route path='facenet' element={<Link24/>}/>
       </Route>
     </Routes>
 
