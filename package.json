@@ -1,6 +1,7 @@
 {
   "name": "project_portfolio",
   "version": "0.1.0",
+  "proxy": "http://localhost:3001",
   "private": true,
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
