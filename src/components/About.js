@@ -37,7 +37,7 @@ export function About(){
                     <div className="box">
                         <img src={hassan} alt='hassan'/>
                         <h3>Hassan Abdalla</h3>
-                        <p></p>
+                        <p>mobile app developer</p>
                     </div>
                     <div className="box">
                         <img src={mahmoud} alt='mahmoud hamdy'/>
@@ -45,18 +45,18 @@ export function About(){
                         <p>Back-end developer</p>
                     </div>
                     <div className="box">
+                        <img src={azzoz} alt='ahmed azzoz'/>
+                        <h3>Ahmed Mohamed</h3>
+                        <p>mobile app developer</p>
+                    </div>
+                    <div className="box">
                         <img src={hamdia} alt='hamdia'/>
                         <h3>Hamdia Mahmoud</h3>
-                        <p></p>
+                        <p>mobile app developer</p>
                     </div>
                     <div className="box">
                         <img src={rawan} alt='rawan elsayed'/>
                         <h3>Rawan Elsayed</h3>
-                        <p>Front-end developer</p>
-                    </div>
-                    <div className="box">
-                        <img src={azzoz} alt='ahmed azzoz'/>
-                        <h3>Ahmed Mohamed</h3>
                         <p>Front-end developer</p>
                     </div>
                     <div className="box">
