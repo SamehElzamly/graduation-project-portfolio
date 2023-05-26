@@ -9,18 +9,18 @@ export function HowItWorks(){
     const [paragraph,setParagraph]=useState(<></>)
         useEffect(()=>{
             let i=2;
-            setParagraph(<p>At first the administrator should collect the all data of all students and fill it on the project....</p>)
+            setParagraph(<p><span>Step1</span> the administrator should collect the all data of all students and fill it on the project....</p>)
             setInterval(()=>{
                 if(i%5===1)
-                    setParagraph(<p>At first the administrator should collect the all data of all students and fill it on the project....</p>)
+                    setParagraph(<p><span>Step1</span>the administrator should collect the all data of all students and fill it on the project....</p>)
                 else if(i%5===2)
-                    setParagraph(<p>The data stored in the data Base....</p>)
+                    setParagraph(<p><span>Step2</span>The data stored in the data Base....</p>)
                 else if(i%5===3)
-                    setParagraph(<p>Project is ready to work....</p>)
+                    setParagraph(<p><span>Step3</span>Project is ready to work....</p>)
                 else if(i%5===4)
-                    setParagraph(<p> Project can now comparing all faces and recgonizing it....</p>)
+                    setParagraph(<p><span>Step4</span> Project can now comparing all faces and recgonizing it....</p>)
                 else
-                    setParagraph(<p>Project produce the name of students have attended and the date of each attendance....</p>)
+                    setParagraph(<p><span>Step5</span>Project produce the name of students have attended and the date of each attendance....</p>)
                 i++
             },8000)
     },[])
